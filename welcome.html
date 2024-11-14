@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        img{
+           border: 2px solid black;
+           border-radius: 10px;
+        }
+    </style>
+
+</head>
+<body style="background-color: powderblue;">
+    
+        <h1 style="color:rgb(107, 127, 36 );" >HTML Introduction</h1>
+        <p style="text-align: center;">HTML is the standard markup language for creating Web pages.</p>
+        <label><b>GSS Logo</b></label>   <br>   
+        <img src="./images/th.jfif" width="200" height="200" alt="GSS logo">
+        <br>
+        <a href="https://gsstech.in/#:~:text=At%20GSS,%20our%20Xamarin%20mobile%20app%20development%20services%20are%20designed">Click here for directing to GSS Webiste</a>
+        <div>
+        <h2>What is HTML?</h2>
+        <ul>
+            <li>HTML stands for Hyper Text Markup Language</li>
+            <li>HTML is the standard markup language for creating Web pages</li>
+            <li>HTML describes the structure of a Web page</li>
+            <li>HTML consists of a series of elements</li>
+            <li>HTML elements tell the browser how to display the content</li>
+            <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+        </ul>
+    </div>
+    <hr>    
+    
+        <a href="https://www.w3schools.com/html/html_intro.asp">Click here To Know more</a>
+        <div>
+            <h2>Example Explained</h2>
+            <ul>
+                <li>The (!DOCTYPE html) declaration defines that this document is an HTML5 document</li>
+                <li>The (html) element is the root element of an HTML page</li>
+                <li>The (head) element contains meta information about the HTML page</li>
+                <li>The (title) element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)</li>
+                <li>The (body) element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</li>
+                <li>The (h1) element defines a large heading</li>
+                <li>The (p) element defines a paragraph</li>
+            </ul>
+        </div>
+        <hr>
+        <div>
+            <br>
+            <img src="img_typo.jpg" alt="Girl with a jacket">
+            <h2 title="I'm a header">The title Attribute</h2>
+            <p title=About W3Schools>
+                You cannot omit quotes around an attribute value 
+                if the value contains spaces.
+            </p>
+ <pre style="color: rgb(67, 44, 129);">
+     My Bonnie lies over the ocean.
+             
+                My Bonnie lies over the sea.
+             
+        My Bonnie lies over the ocean.
+                
+                    Oh, bring back my Bonnie to me.
+             </pre>
+             
+        </div>
+        <P>This is a text with<sub> Subscripteee</sub> and the text<sup> Subscript</sup></P>
+        <p>this text is <strong>Important</strong> text</p>
+        <p>This text is <i>Italic </i>text</p>
+        <p>this is a <em>Emphasized</em> text</p>
+        <p>this text higlites the <mark>marked </mark>text</p>
+        <p>this text reduces the <small>size of </small> the text</p>
+        <p>this text will <del>strike or delete</del> the text</p>
+        <p>this element will<ins> insert in the midel </ins>of the text</p>
+        <p>this element will make text<sub> to print half the text below</sub></p>
+        <p>this element wil make text<sup> print above half of the line</sup></p>
+        <p style="background-color:powderblue;">Here is a quote from WWF's website:</p>
+        <blockquote cite="http://www.worldwildlife.org/who/index.html">
+            For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+        </blockquote>
+        <p style="background-color: powderblue;">My goal is to: <q>Complete this probation period successfully</q></p>
+        <p>abbr means abbrivation.<abbr title="World health Orginization">WHO</abbr> was found in 1948</p>
+       
+        <address>
+            <!-- used to give the details of the author -->
+            written by:Edwin<br>
+            in the year:<br>
+            contact us at:<br>
+            Example.com<br>
+            US. 1980
+        </address>
+            <!-- used to give the title for the work -->
+             <img style="border-radius: 0px;" src="./images/img_the_scream.jpg" alt="The Scream" width="270" height="200">
+        <p style="margin-top: 0;"><cite>The Screem</cite> By Edvard Munch. Painted in 1893.</p>
+        <bdo dir="rtl">This will be written from right to left</bdo>
+        <h3 style="border: 2PX SOLID tomato;">HELLLO WORLD</h3>
+        <P style="border: 2px solid black;">HELLO WORLD</P>
+        <h3>HELLLO WORLD</h3>
+        <button onclick="getLocation()">Geo Location</button>
+
+<p id="demo"></p>
+
+<script>
+const x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+}
+
+</script>
+
+        
+</body>
+</html>

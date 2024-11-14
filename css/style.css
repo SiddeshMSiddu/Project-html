@@ -1,0 +1,17 @@
+p{
+    background-color: pink;
+    color: red;
+}
+ul{
+    font-family: courier;
+    color:rgb(220, 138, 46);
+}
+div{
+    background-color: rgb(200, 216, 56);
+    border: 2px solid black;
+}
+
+#demo {
+    color: black;
+    border: 2px solid red;
+}
